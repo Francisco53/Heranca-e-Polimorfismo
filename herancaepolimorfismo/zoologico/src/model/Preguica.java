@@ -1,5 +1,5 @@
 
-package herancaepolimorfismo;
+package model;
 
 
 public class Preguica extends Animal{

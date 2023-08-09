@@ -1,9 +1,12 @@
-
-package herancaepolimorfismo;
+package view;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import model.Animal;
+import model.Cachorro;
+import model.Cavalo;
+import model.Preguica;
 
 public class ProgramaAnimais {
     
