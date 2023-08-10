@@ -6,7 +6,6 @@ public class Funcionario {
 	private String codigoFuncional;
 	private double rendaBasica = 1000.00;
 	private double rendaTotal = rendaBasica;
-	private double taxa;
 	private double comissao = 0.0;
 	
 	@Override
@@ -47,18 +46,6 @@ public class Funcionario {
 		return rendaTotal;
 	}
 
-	public void setRendaTotal(double rendaTotal) {
-		this.rendaTotal = getRendaBasica() + (getRendaBasica() * getTaxa() / 100) + comissao;
-	}
-
-	public double getTaxa() {
-		return taxa;
-	}
-
-	public void setTaxa(double taxa) {
-		this.taxa = taxa;
-	}
-	
 	public double getComissao() {
         return comissao;
     }
@@ -66,5 +53,10 @@ public class Funcionario {
     public void setComissao(double comissao) {
         this.comissao = comissao;
     }
+    
+    public void setRendaTotal() {
+		this.rendaTotal = getRendaBasica() + comissao;
+	}
+	
 
 }
