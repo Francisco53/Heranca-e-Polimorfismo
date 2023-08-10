@@ -9,9 +9,10 @@ public class Funcionario {
 	private double taxa;
 	private Comissoes comissao;
 	
-	public Funcionario(String nome, String codigoFuncional) {
+	public Funcionario(String nome, String codigoFuncional, Comissoes comissao) {
 		setNome(nome);
 		setCodigoFuncional(codigoFuncional);
+		setComissao(comissao);
 	}
 	
 	public String getNome() {
