@@ -14,7 +14,4 @@ public class Comissao {
 	public void setValorComissao(double valorComissao) {
 		this.valorComissao = valorComissao;
 	}
-	
-	public void adicionarComissao() {
-	}
 }
