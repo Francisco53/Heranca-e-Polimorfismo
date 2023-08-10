@@ -7,9 +7,9 @@ public class Funcionario {
 	private double rendaBasica = 1000.00;
 	private double rendaTotal = rendaBasica;
 	private double taxa;
-	private Comissoes comissao;
+	private Comissao comissao;
 	
-	public Funcionario(String nome, String codigoFuncional, Comissoes comissao) {
+	public Funcionario(String nome, String codigoFuncional, Comissao comissao) {
 		setNome(nome);
 		setCodigoFuncional(codigoFuncional);
 		setComissao(comissao);
@@ -60,11 +60,11 @@ public class Funcionario {
 	    calculaRendaTotal();
 	}
 
-	public Comissoes getComissao() {
+	public Comissao getComissao() {
 		return comissao;
 	}
 
-	public void setComissao(Comissoes comissao) {
+	public void setComissao(Comissao comissao) {
 		this.comissao = comissao;
 	}
 

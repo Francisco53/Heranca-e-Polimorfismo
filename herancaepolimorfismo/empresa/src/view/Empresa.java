@@ -1,6 +1,6 @@
 package view;
 
-import model.Comissoes;
+import model.Comissao;
 import model.Funcionario;
 import model.FuncionarioEnsinoBasico;
 import model.FuncionarioEnsinoMedio;
@@ -23,7 +23,7 @@ public class Empresa {
         int supervisorCount = 2;
         int vendedorCount = 7;
         
-        Comissoes[] comissoes = new Comissoes[10];
+        Comissao[] comissoes = new Comissao[10];
         
         for (int i = 0; i < 10; i++) {
             if (gerenteCount > 0) {

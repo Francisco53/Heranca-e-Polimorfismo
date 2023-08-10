@@ -1,6 +1,6 @@
 package model;
 
-public class Vendedor extends Comissoes {
+public class Vendedor extends Comissao {
 
 	public Vendedor() {
 		setValorComissao(250);

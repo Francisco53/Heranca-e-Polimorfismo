@@ -1,10 +1,10 @@
 package model;
 
-public class Comissoes {
+public class Comissao {
 
 	private double valorComissao;
 	
-	public Comissoes() {
+	public Comissao() {
 	}
 
 	public double getValorComissao() {
